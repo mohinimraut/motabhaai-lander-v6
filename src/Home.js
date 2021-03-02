@@ -4,48 +4,20 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import Features from './Features'
 import MapSection from './components/GoogleMap/Map';
-
 import discover from '../src/images/imagenew/discover-02.png';
-
 import footerimg from '../src/images/imagenew/footer.png';
 import business24 from '../src/images/imagenew/business24.png';
 import subscribe from '../src/images/imagenew/subscribe.png';
-
-
-
-
 import Asset1 from '../src/images/imagenew/Asset1.png';
-
 import Asset2 from '../src/images/imagenew/Asset2.png';
-
 import Asset3 from '../src/images/imagenew/Asset3.png';
 import Asset4 from '../src/images/imagenew/Asset4.png';
-
-
 import Group104 from '../src/images/imagenew/Group104.png';
-
-
 import aboutUs from '../src/images/imagenew/aboutUs.png';
-
 import ismaile from '../src/images/imagenew/ismaile.jpg';
-
-
-
 import manchery from '../src/images/imagenew/manchery.jpg';
 import jsgsupermarket from '../src/images/imagenew/jsgsupermarket.jpg';
-
-
-
-
-
 import firebase from 'firebase'
-
-
-
-
-
-
-
   var firebaseConfig = {
     apiKey: "AIzaSyCXEiszXdQb9EqEb1kYmRsCJo9TPfYujc4",
     authDomain: "test-form-eb682.firebaseapp.com",
@@ -56,8 +28,6 @@ import firebase from 'firebase'
   };
  
   firebase.initializeApp(firebaseConfig);
-  
-
   let emailInfo=firebase.database().ref("infos")
 export class Home extends Component {
   constructor(props) {
@@ -81,20 +51,14 @@ export class Home extends Component {
        this.saveEmailInfo(email);
        alert("hhhhhhhhh"+email)
       }
-
-     
-    saveEmailInfo(email){
+        saveEmailInfo(email){
     let newContactInfo=emailInfo.push();
     newContactInfo.set({
     email:email
     })
     }
-
-
     render() {
-    
-
-      const shops=[
+          const shops=[
       
         {
           lat: 19.28363,
@@ -759,14 +723,6 @@ sellers to promote,manage & sell their goods and services
 
    </div>
 
-
-
-
-
-
-
-
-
   </div>
  </div>
 
@@ -816,17 +772,8 @@ sellers to promote,manage & sell their goods and services
 
 </div>
 
-
-
-
-
   </div>
-  
-  
-
-
-
-
+    
 <div id="aboutcontainer" className="container-fluid">
 <div className="row" id="sidehead">About us</div>
 <div className="row" id="sidebottom"></div>
@@ -919,22 +866,14 @@ sellers to promote,manage & sell their goods and services
 </div>
 
 
-
-
-
-
-
-
-
-
-
 <div style={{marginTop:"5rem"}}>
 <Features/>
 </div>
 
 
 <div style={{marginTop:"5rem"}}>
-  
+<div className="row" id="sidehead">Activities</div>
+<div className="row" id="sidebottom"></div>
     <MapSection shops={shops} style={{}}/>
   
 </div>
