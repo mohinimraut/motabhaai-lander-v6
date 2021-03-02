@@ -1,0 +1,777 @@
+ .map-h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+.map {
+  height: 112vh;
+}
+
+.google-map {
+  width: 95%;
+  height: 50vh;
+  margin-left: 2.4rem;
+}
+
+#motabahiheadtitle {
+  padding-left: 5%;
+}
+.pin {
+  display: flex;
+  align-items: center;
+  width: 6vh;
+  color: white;
+}
+
+.pin-icon {
+  font-size: 5rem;
+  color: aqua;
+}
+
+.pin-text {
+  font-size: 10rem;
+  color: white;
+} 
+
+
+@media (max-width: 575.98px) {
+ 
+  .pin-icon {
+    font-size: 5rem;
+  }
+
+  .pin-text {
+    color: white;
+    font-size: 3em;
+  }
+  .tdmodulehead {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    width:10px;
+  }
+  .tdmodule {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.2;
+   width:10px;
+  }
+  
+  #maptableweb {
+    display: none;
+  }
+
+  #maptablemob {
+    background-color: #556577;
+    width: 2rem;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 4%;
+    overflow: hidden;
+    font-size: 25px;
+    border: hidden;
+   
+  }
+  .map {
+    width:44vh;
+    margin-left:1rem;
+    height: 127vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .google-map {
+    width: 40.9vh;
+    height: 35vh;
+    margin-left: 0.8rem;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 38px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 29px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 14px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 5vh;
+    color:white;
+  }
+
+  .pin-icon {
+    font-size: 3rem;
+    color: aqua;
+  }
+
+  .pin-text {
+    font-size: 1.5em;
+  }
+  #secondtable{
+    margin-top: 2rem;
+    height:22rem;
+  
+    width:39vh;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background: #556577;
+    border: hidden;
+    overflow: hidden;
+    color:#cccccc;
+    border-color:red;
+    border-color: #556577;
+    font-size: 14px;
+    
+  }
+ 
+  #maptableweb{
+    display:none;
+  }
+
+}
+
+
+@media (min-width: 425px) and (max-width: 574.98px) {
+  .pin-icon {
+    font-size: 5rem;
+  }
+
+  .pin-text {
+    color: white;
+    font-size: 3em;
+  }
+  .tdmodulehead {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    width:10px;
+  }
+  .tdmodule {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.2;
+   width:10px;
+  }
+  
+  #maptableweb {
+    display: none;
+  }
+
+  #maptablemob {
+    background-color: #556577;
+    width: 2rem;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 4%;
+    overflow: hidden;
+    font-size: 25px;
+    border: hidden;
+   
+  }
+  .map {
+    width:65vh;
+    margin-left:1rem;
+    height: 127vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .google-map {
+    width: 61vh;
+    height: 35vh;
+    margin-left: 0.8rem;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 38px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 29px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 14px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 5vh;
+    color:white;
+  }
+
+  .pin-icon {
+    font-size: 3rem;
+    color: aqua;
+  }
+
+  .pin-text {
+    font-size: 1.5em;
+  }
+  #secondtable{
+    margin-top: 2rem;
+    height:22rem;
+  
+    width:60vh;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background: #556577;
+    border: hidden;
+    overflow: hidden;
+    color:#cccccc;
+    border-color:red;
+    border-color: #556577;
+    font-size: 14px;
+    
+  }
+ 
+  #maptableweb{
+    display:none;
+  }
+}
+
+
+
+
+@media (min-width: 350px) and (max-width: 424.98px) {
+  .pin-icon {
+    font-size: 5rem;
+  }
+
+  .pin-text {
+    color: white;
+    font-size: 3em;
+  }
+  .tdmodulehead {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    width:10px;
+  }
+  .tdmodule {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.2;
+   width:10px;
+  }
+  
+  #maptableweb {
+    display: none;
+  }
+
+  #maptablemob {
+    background-color: #556577;
+    width: 2rem;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 4%;
+    overflow: hidden;
+    font-size: 25px;
+    border: hidden;
+   
+  }
+  .map {
+    width:56vh;
+    margin-left:1rem;
+    height: 127vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .google-map {
+    width: 52vh;
+    height: 35vh;
+    margin-left: 0.8rem;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 38px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 29px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 14px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 5vh;
+    color:white;
+  }
+
+  .pin-icon {
+    font-size: 3rem;
+    color: aqua;
+  }
+
+  .pin-text {
+    font-size: 1.5em;
+  }
+  #secondtable{
+    margin-top: 2rem;
+    height:22rem;
+  
+    width:51vh;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background: #556577;
+    border: hidden;
+    overflow: hidden;
+    color:#cccccc;
+    border-color:red;
+    border-color: #556577;
+    font-size: 14px;
+    
+  }
+ 
+  #maptableweb{
+    display:none;
+  }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #secondtable{
+    margin-top: 2rem;
+    height:40rem;
+  
+    width:56vh;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background: #556577;
+    border: hidden;
+    overflow: hidden;
+    color:#cccccc;
+    border-color:red;
+    border-color: #556577;
+    font-size: 30px;
+    
+  }
+  .tdmodulehead {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-left: 1rem;
+  }
+  .tdmodule {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.2;
+    margin-left: 5rem;
+  }
+  #maptableweb {
+    display: none;
+  }
+  #maptablemob {
+    background-color: #556577;
+    width: 16rem;
+    border-radius: 10px;
+    margin-left: 12%;
+    margin-top: 4%;
+    overflow: hidden;
+    font-size: 25px;
+    border: hidden;
+  }
+  .map {
+    height: 134vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .google-map {
+    width: 93%;
+    height: 50vh;
+    margin-left: 0.8rem;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 48px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 34px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 19px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 5vh;
+    color:white;
+  }
+
+  .pin-icon {
+    font-size: 3rem;
+    color: aqua;
+  }
+
+  .pin-text {
+    font-size: 1.5em;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #secondtable{
+    margin-top: 2rem;
+    height:20rem;
+  
+    width:115vh;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background: #556577;
+    border: hidden;
+    overflow: hidden;
+    color:#cccccc;
+    border-color:red;
+    border-color: #556577;
+    font-size: 15px;
+    
+  }
+  #mwebsam {
+    font: normal normal bold 40px Roboto;
+    letter-spacing: 0px;
+    color: #fef8e6;
+    opacity: 1;
+  }
+  .tdmodulehead {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-left: 1rem;
+  }
+  .tdmodule {
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 0.2;
+    margin-left: 5rem;
+  }
+
+  #maptableweb {
+    display: none;
+  }
+
+  #maptablemob {
+    background-color: #556577;
+    width: 41rem;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 4%;
+    overflow: hidden;
+    font-size: 25px;
+    border: hidden;
+  }
+  .map {
+    height: 150vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .google-map {
+    width: 93%;
+    height: 50vh;
+    margin-left: 1.6rem;
+  }
+  #mapmotabhaai {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  #mapmotabhaaisecond {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #mapmotabhaaithird {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 5vh;
+    color: white;
+  }
+
+  .pin-icon {
+    font-size: 3rem;
+    color:aqua;
+  }
+
+  .pin-text {
+    font-size: 1.5em;
+    color: white;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #secondtable{
+    display:none
+  }
+  .map {
+    padding-top: 3rem;
+    height: 120vh;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .google-map {
+    width: 93%;
+    height: 80vh;
+    margin-left: 1rem;
+    border-radius: 2rem;
+  }
+  .tdwebrow {
+    height: 2.1rem;
+  }
+  .tdf {
+    padding-left: 2rem;
+    font-size: 16px;
+  }
+  .tds {
+    font-size: 16px;
+  }
+  #maptableweb {
+    width: 17rem;
+    border-radius: 10px;
+    margin-left: 13%;
+   height:15rem;
+
+    overflow: hidden;
+    margin-top: -10rem;
+    
+   
+  }
+  
+  #maptablemob {
+    display: none;
+  }
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 5vh;
+    color: white;
+  }
+
+  .pin-icon {
+    font-size: 3rem;
+    color: aqua;
+  }
+
+  .pin-text {
+    color: white;
+    font-size: 3rem;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 50px/61px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 37px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 22px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+  #secondtable{
+    display:none
+  }
+  .pin {
+  display: flex;
+  align-items: center;
+  width: 6vh;
+  color: white;
+  font-size: 1.3rem;
+}
+
+
+.pin-icon {
+  font-size: 5rem;
+  color: aqua;
+}
+
+.pin-text {
+  font-size: 13rem;
+  color: white;
+} 
+
+  .pin-icon {
+    font-size: 5rem;
+  }
+
+ 
+  .tdwebrow {
+    height: 2rem;
+  }
+  .tdf {
+    padding-left: 3rem;
+    font-size: 17px;
+  }
+  .tds {
+    font-size: 17px;
+  }
+  .map {
+    border-radius: 2rem;
+    padding-top: 3rem;
+    height: 112vh;
+    overflow: hidden;
+  }
+  
+  #maptableweb {
+    width: 15rem;
+    border-radius: 10px;
+    margin-left: 30%;
+   height:20rem;
+   font-size:20px;
+    overflow: hidden;
+    margin-top: -9rem;
+    
+   
+  }
+  .google-map {
+    width: 95%;
+    height: 75vh;
+    margin-left: 2.4rem;
+  }
+  #maptablemob {
+    display: none;
+  }
+  #mapmotabhaai {
+    font: normal normal bold 50px/61px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 37px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 22px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 1920.98px) and (max-width: 2560px) {
+  #mapmotabhaai {
+    font: normal normal bold 80px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaisecond {
+    font: normal normal bold 45px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mapmotabhaaithird {
+    font: normal normal bold 30px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  .tdf {
+    padding-left: 3rem;
+    font-size: 30px;
+  }
+  .tds {
+    font-size: 30px;
+  }
+  .tdwebrow {
+    height: 6rem;
+  }
+  .google-map {
+    width: 95%;
+    height: 90vh;
+    margin-left: 2.4rem;
+  
+  }
+  .map {
+    border-radius: 2rem;
+    padding-top: 3rem;
+    height: 112vh;
+    overflow: hidden;
+  }
+  #maptableweb {
+    width: 30rem;
+    border-radius: 10px;
+    margin-left: 38rem;
+   height:20rem;
+   font-size:20px;
+    overflow: hidden;
+    margin-top: -36rem;
+    
+   
+  }
+  #secondtable{
+    display:none
+  }
+  .pin-icon {
+    font-size: 5rem;
+  }
+
+  .pin-text {
+    color: white;
+    font-size: 3em;
+  }
+}

@@ -1,0 +1,376 @@
+
+
+@media (max-width: 575.98px) {
+  img#mobileviewimg {
+    width: 60%;
+    height: 60%;
+    margin-left: 3rem;
+  }
+  #mobileviewfeaturebtn:hover {
+    background-color: #003366;
+    color: white;
+  }
+  #webviewfeature {
+    display: none;
+  }
+  #mobileviewfeaturebtn {
+    background: #eff8f5 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    width: 400px;
+    height: 60px;
+    margin-top: 2rem;
+    margin-left: 20px;
+    font: normal normal normal 30px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+  }
+  #mobileviewfeaturesmaincont {
+    background-color: rgb(244, 247, 255);
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin: 0.5rem;
+    margin-left: 3rem;
+  }
+
+  #mobileviewfeaturesspanpara {
+    color: var(--unnamed-color-008080);
+    margin-left: 10px;
+    padding-right: 20px;
+    font: normal normal normal 16px Roboto;
+    color: #ae8e34;
+    opacity: 1;
+    margin-top: 1.1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #mobileviewcardfeatures1 {
+    width: 20rem;
+    height: 18rem;
+    background: #c5d6fc 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 30px;
+    margin: 2rem;
+  }
+  #mobileviewfeaturesparam {
+    text-align: center;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mobileviewfeaturesparam1 {
+    margin-top: 0.5rem;
+    text-align: center;
+    font: normal normal normal 15px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mobileviewcardfeatures2 {
+    width: 20rem;
+    height: 18rem;
+    background: rgb(238, 224, 221) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    margin: 2rem;
+  }
+  #mobileviewfeaturesparam2 {
+    text-align: center;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    color: #ea9999;
+    opacity: 1;
+  }
+  #mobileviewfeaturesparam3 {
+    margin-top: 0.5rem;
+    text-align: center;
+    font: normal normal normal 15px Roboto;
+    letter-spacing: 0px;
+    color: #ea9999;
+    opacity: 1;
+  }
+  #mobileviewcardfeatures3 {
+    width: 20rem;
+    height: 18rem;
+    background: #fada80 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    border-radius: 30px;
+    margin: 2rem;
+  }
+  #mobileviewfeaturesparam4 {
+    text-align: center;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    color: #ae8e34;
+    opacity: 1;
+  }
+  #mobileviewfeaturesparam5 {
+    margin-top: 0.5rem;
+    text-align: center;
+    font: normal normal normal 15px Roboto;
+    letter-spacing: 0px;
+    color: #ae8e34;
+    opacity: 1;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  img#mobileviewimg {
+    width: 60%;
+    height: 60%;
+    margin-left: 5rem;
+  }
+  #mobileviewfeaturebtn:hover {
+    background-color: #003366;
+    color: white;
+  }
+  #webviewfeature {
+    display: none;
+  }
+  #mobileviewfeaturebtn {
+    background: #eff8f5 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    width: 520px;
+    height: 60px;
+    margin-top: 2rem;
+    margin-left: 10px;
+    font: normal normal normal 30px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+  }
+  #mobileviewfeaturesmaincont {
+    background-color: rgb(244, 247, 255);
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin: 0.5rem;
+    margin-left: 2.8rem;
+  }
+
+  #mobileviewfeaturesspanpara {
+    color: var(--unnamed-color-008080);
+    margin-left: 10px;
+    padding-right: 20px;
+    font: normal normal normal 18px Roboto;
+    color: #ae8e34;
+    opacity: 1;
+    margin-top: 1.1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #mobileviewcardfeatures1 {
+    width: 27rem;
+    height: 24rem;
+    background: #c5d6fc 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 30px;
+    margin: 2rem;
+  }
+  #mobileviewfeaturesparam {
+    text-align: center;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mobileviewfeaturesparam1 {
+    margin-top: 3rem;
+    text-align: center;
+    font: normal normal normal 17px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mobileviewcardfeatures2 {
+    width: 20rem;
+    height: 18rem;
+    background: rgb(238, 224, 221) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    margin: 2rem;
+  }
+  #mobileviewfeaturesparam2 {
+    text-align: center;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    color: #ea9999;
+    opacity: 1;
+  }
+  #mobileviewfeaturesparam3 {
+    margin-top: 3rem;
+    text-align: center;
+    font: normal normal normal 17px Roboto;
+    letter-spacing: 0px;
+    color: #ea9999;
+    opacity: 1;
+  }
+  #mobileviewcardfeatures3 {
+    width: 20rem;
+    height: 18rem;
+    background: #fada80 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    border-radius: 30px;
+    margin: 2rem;
+  }
+  #mobileviewfeaturesparam4 {
+    text-align: center;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    color: #ae8e34;
+    opacity: 1;
+  }
+  #mobileviewfeaturesparam5 {
+    margin-top: 3rem;
+    text-align: center;
+    font: normal normal normal 17px Roboto;
+    letter-spacing: 0px;
+    color: #ae8e34;
+    opacity: 1;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  img#mobileviewimg {
+    width: 60%;
+    height: 60%;
+    margin-left: 8rem;
+  }
+  #mobileviewfeaturebtn:hover {
+    background-color: #003366;
+    color: white;
+  }
+
+  #webviewfeature {
+    display: none;
+  }
+  #mobileviewfeaturebtn {
+    background: #eff8f5 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    width: 740px;
+    height: 60px;
+    margin-top: 2rem;
+    margin-left: 15px;
+    font: normal normal normal 30px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+  }
+  #mobileviewfeaturesmaincont {
+    background: #addcca33 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin: 0.5rem;
+    margin-left: 2.8rem;
+    opacity: 1;
+  }
+
+  #mobileviewfeaturesspanpara {
+    color: var(--unnamed-color-008080);
+    margin-left: 10px;
+    padding-right: 20px;
+    font: normal normal normal 15pxroboto;
+    letter-spacing: 0px;
+    color: #ae8e34;
+    opacity: 1;
+    margin-top: 1.1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #mobileviewcardfeatures1 {
+    width: 43rem;
+    height: 35rem;
+    background: #c5d6fc 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 10px;
+    margin: 2rem;
+  }
+  #mobileviewfeaturesparam {
+    text-align: center;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mobileviewfeaturesparam1 {
+    margin-top: 2rem;
+    text-align: center;
+    font: normal normal normal 17 Roboto;
+    letter-spacing: 0px;
+    color: #2c3d63;
+    opacity: 1;
+  }
+  #mobileviewcardfeatures2 {
+    width: 43rem;
+    height: 35rem;
+    background: rgb(238, 224, 221) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    margin: 2rem;
+  }
+  #mobileviewfeaturesparam2 {
+    text-align: center;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    color: #ea9999;
+    opacity: 1;
+  }
+  #mobileviewfeaturesparam3 {
+    margin-top: 2rem;
+    text-align: center;
+    font: normal normal normal 17px Roboto;
+    letter-spacing: 0px;
+    color: #ea9999;
+    opacity: 1;
+  }
+  #mobileviewcardfeatures3 {
+    width: 43rem;
+    height: 35rem;
+    background: #fada80 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    border-radius: 10px;
+    margin: 2rem;
+  }
+  #mobileviewfeaturesparam4 {
+    text-align: center;
+    font: normal normal bold 20px Roboto;
+    letter-spacing: 0px;
+    color: #ae8e34;
+    opacity: 1;
+  }
+  #mobileviewfeaturesparam5 {
+    margin-top: 2rem;
+    text-align: center;
+    font: normal normal normal 17px Roboto;
+    letter-spacing: 0px;
+    color: #ae8e34;
+    opacity: 1;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #mobileviewfeature {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+  #mobileviewfeature {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1920.98px) and (max-width: 2560px) {
+  #mobileviewfeature {
+    display: none;
+  }
+}
